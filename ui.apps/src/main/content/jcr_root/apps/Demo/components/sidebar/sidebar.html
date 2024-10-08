@@ -1,0 +1,19 @@
+
+
+<div data-sly-use.sidebar="com.adobe.aem.guides.demo.core.models.Sidebar"></div>
+
+<h3>Header</h3>
+
+        <div>Logo Mobile Image: ${sidebar.logoMobileImage}</div>
+        <div>Logo Path: ${sidebar.logoPath}</div>
+        <div>Logo Link: ${sidebar.logoLink}</div>
+        <div>Enable Switch: ${sidebar.enableSwitch ? 'Enabled' : 'Disabled'}</div>
+<h3>Header Links</h3>
+        <div>Name: ${sidebar.name}</div>
+        <div>Image: ${sidebar.image}</div>
+<h3>Sidebar Navigation</h3>
+        <div>Desktop Icon: ${sidebar.desktopIcon}</div>
+        <div>Mobile Icon: ${sidebar.mobileIcon}</div>
+        <div>Navigation URL: ${sidebar.navigationUrl}</div>
+<h3>Region</h3>
+        <div>Country: ${sidebar.country}</div>
